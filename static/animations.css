@@ -1,0 +1,19 @@
+/*@keyframes seta{
+    to{
+        transform: translateY(-15px);
+    }
+}*/
+
+
+
+
+
+
+@media screen and (max-width:720px){
+   #header{
+       display: none;
+   }
+   main{
+       margin: 0;
+   }
+}
