@@ -1,8 +1,11 @@
-/*@keyframes seta{
+@keyframes seta{
     to{
         transform: translateY(-15px);
     }
-}*/
+}
+
+
+
 
 
 
@@ -16,4 +19,14 @@
    main{
        margin: 0;
    }
+
+   #img-perfil-secundaria{
+       margin: 0 auto;
+        display: block;
+       background-color: brown;
+       width: 150px;
+   }
+   i.menu-mobile{
+    display: block;
+}
 }
