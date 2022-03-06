@@ -106,7 +106,7 @@ main section h2{
 
 #img-perfil-secundaria{
     width: 120px;
-    clip-path: circle();
+    
     display: none;
 }
 
@@ -154,6 +154,6 @@ i.menu-mobile{
 }
 
 .menu-nav-active #header{
-    left: 0;
-    
+    left: 0px;
+    z-index: 8888;
 }
