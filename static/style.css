@@ -155,15 +155,16 @@ main section span#tx{
    
 }
 i.menu-mobile{
+    text-align: center;
     position: fixed;
-    font-size: 45px;
+    font-size: 40px;
     top: 15px;
     left: calc(100vw - 70px);
     cursor: pointer;
     color:white;
     z-index: 10;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     display: none;
     background-color: #412cfd;
     border-radius: 45px;
