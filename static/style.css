@@ -142,7 +142,7 @@ animation: seta 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6) alternate infinite ;
 }
 
 
-main section h2{
+main section h2#nome{
     text-shadow: 4px 5px 10px black;
 }
 
@@ -151,17 +151,23 @@ main section span#tx{
 }
 
 
+.menu-mobile{
+   
+}
 i.menu-mobile{
     position: fixed;
-    width: 50px;
+    font-size: 45px;
     top: 15px;
-    left: calc(100vw - 50px);
+    left: calc(100vw - 70px);
     cursor: pointer;
     color:white;
     z-index: 10;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     display: none;
+    background-color: #412cfd;
+    border-radius: 45px;
+    
 }
 
 .menu-nav-active{
@@ -174,6 +180,11 @@ i.menu-mobile{
     z-index: 8888;
 }
 
-#sobre{
-    background-color:#2E8B57;
+#sobre span{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style:italic;
+}
+
+.section-bg{
+    background-color: #eff5ff;
 }
