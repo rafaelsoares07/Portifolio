@@ -11,12 +11,5 @@ btn.addEventListener('click',()=>{
     btn.classList.replace('bi-x','bi-list');
 
     body.classList.toggle("menu-nav-active");
-
-    
-
- 
-
-
-
 })
 
