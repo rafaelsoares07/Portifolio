@@ -27,9 +27,10 @@ listItem.forEach((item) => {
 
 
 //ANIMAÇÕES DAS SECTIONS COM O SCROLL//
-var target = $('.animacao');
-var animationClass = "animacao-play"
-var heigth = $(window).height() * 3 / 5;
+var target = $('[data-anime]');
+console.log(target)
+var animationClass = "animate"
+var heigth = $(window).height() * 3 / 4;
 
 
 function animeScroll() {
@@ -40,12 +41,12 @@ function animeScroll() {
         console.log(itemTop)
         if (documetTop > itemTop - heigth) {
             $(this).addClass(animationClass)
-            var a = 5
+            
 
         }
         else {
             $(this).removeClass(animationClass)
-            var b = 6
+        
         }
     })
 }
