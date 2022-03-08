@@ -238,3 +238,22 @@ i.menu-mobile{
     background-color: #e4edf9;
 
 } 
+
+
+.animacao{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition:.3s;
+}
+
+.animacao-top{
+    transform: translate3d(0,-100px,0);
+}
+
+.animacao-play{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    left: 0;
+
+}
+
